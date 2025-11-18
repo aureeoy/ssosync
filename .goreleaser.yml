@@ -22,7 +22,7 @@ builds:
       - arm
       - arm64
     goarm64:
-      - v8.0
+      - v8.2
     goamd64:
       - v1
     goarm:
