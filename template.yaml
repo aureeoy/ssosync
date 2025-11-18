@@ -603,7 +603,7 @@ Resources:
         - arm64
       MemorySize: !Ref MemorySize
       Timeout: !Ref TimeOut
-      ReservedConcurrentExecutions: 1
+      ReservedConcurrentExecutions: 0
       Environment:
         Variables:
           LOG_LEVEL: !Ref LogLevel
